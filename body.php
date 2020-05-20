@@ -1,5 +1,4 @@
 
-<p id="demo"></p>
 
 <!--LIST FLEXBOX-->
 
