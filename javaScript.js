@@ -60,7 +60,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
 }
 function deviceOrientation(event) {
-  alert(event.alpha + ' : ' + event.beta + ' : ' + event.gamma);
+  /*alert(event.alpha + ' : ' + event.beta + ' : ' + event.gamma);*/
   window.removeEventListener('deviceorientation', deviceOrientation);
 }
 window.addEventListener('deviceorientation', deviceOrientation);
