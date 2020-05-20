@@ -5,7 +5,7 @@
 
   <?php include('head.php'); ?>
 
-  <title>INDEX</title>
+  <title>GITTTTT</title>
 
 </head>
 
