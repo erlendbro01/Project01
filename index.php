@@ -12,18 +12,19 @@
 
 
 
-
 <!-- Get Gyroscope -->
 
 <script>
 
 x = ['unity'];
+
 tryMe ([x]);</script>
     
+
+
+
+
 <div class="grid-container">
-
-
-
 
 <!--SideBar -->
   <div class="gridItem_sidebar"> 

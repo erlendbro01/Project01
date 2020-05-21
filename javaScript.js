@@ -1,5 +1,19 @@
 
 
+var b = false;
+
+if (!b) {
+
+printTest();
+}
+
+
+function printTest () {
+
+  alert('printTest');
+ 
+}
+
 function test(name) {
 
 
@@ -59,8 +73,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   }, false);
 
 }
+
+
 function deviceOrientation(event) {
-  alert(event.alpha + ' : ' + event.beta + ' : ' + event.gamma);
+  /*alert('gyro ' + event);*/
   window.removeEventListener('deviceorientation', deviceOrientation);
 }
 window.addEventListener('deviceorientation', deviceOrientation);
+
+
+
