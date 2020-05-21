@@ -2,8 +2,57 @@ html, body {margin:0}
 
 
 
+/*--CSS GRIDS--*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: auto auto;
+  grid-gap: 0px;
+}
 
-/*Sidebar generan*/
+
+.grid-container > div {
+  
+  text-align: center;
+
+  font-size: 20px;
+  color: white;
+}
+
+
+/*sidebar*/
+.gridItem_sidebar {
+  grid-column: 0 / 1;
+}
+/*body*/
+.gridItem_body {
+  grid-column: 2 /3
+}
+
+.gridItem_Footer {
+  grid-column: 4 /5
+}
+
+/*-Mobile*/
+@media only screen and (max-width: 1000px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .gridItem_sidebar {
+    grid-column: 1 / 2;
+    grid-row: 0 /1;
+  }
+  
+  .gridItem_body {
+    grid-column: 1 /2;
+    grid-row: 2 /3;
+  }
+}
+
+
+/*Sidebar Properties*/
 .sidebar {
   height: 100%;
 
@@ -56,75 +105,6 @@ color: rgb(136, 136, 136);
 
 
 
-
-/* FSS GRIDS*/
-
-.grid-container {
-  display: grid;
-
-  grid-template-columns: 300px auto;
-  grid-template-rows: auto auto;
-
-  grid-gap: 0px;
-
-
-
-}
-
-/*------PC------*/
-.grid-container > div {
-  
-  text-align: center;
-
-  font-size: 20px;
-  color: white;
-}
-
-
-/*SIDEBAR*/
-.gridItem_sidebar {
-
-  grid-column: 0 / 1;
-  background-color: brown;
-
-
-  background-color: rgb(17, 17, 17);
-}
-
-.gridItem_body {
-   
-  grid-column: 2 /3;
- 
-}
-
-
-
-/*------Deskto/mobile------*/
-@media only screen and (max-width: 1000px) {
-  .grid-container {
- 
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-  }
-
-  .gridItem_sidebar {
-
-    grid-column: 1 / 2;
-    grid-row: 0 /1;
-    background-color: brown;
-  
-  
-    background-color: rgb(17, 17, 17);
-  }
-  
-  .gridItem_body {
-     
-    grid-column: 1 /2;
-    grid-row: 2 /3;
- 
-  }
-  
-}
 
 
 
