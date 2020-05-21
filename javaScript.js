@@ -26,7 +26,7 @@ $(window).mousemove(function(e){
 	
 if(window.DeviceOrientationEvent) { 
 
-  alert('Device Orientation Supported');
+ 
  
 }
 else {
@@ -45,8 +45,8 @@ window.addEventListener('deviceorientation', function(event) {
 
   {
     console.log('Gyro Updated: var:' + alpha);
-    $("#demo-box").css('top', ((100+(gamma/18))+"px"));
-    $("#demo-box").css('left', ((100+(alpha/18))+"px"));
+    $("#demo-box").css('top', ((5*(gamma/18))+"px"));
+    $("#demo-box").css('left', ((5*(alpha/18))+"px"));
   
   }
   

@@ -1,7 +1,19 @@
-<div id="demo-box"></div>
+
+
+<!--Background-->
+
+<div id="demo-box">
+
+
+<img src = "http://localhost/Project01/3D/machine/01.png"> </img>
+</div>
+
+
+
+
+
 
 <!--LIST FLEXBOX-->
-
 
 <ul class="flex-container">
 
