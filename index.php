@@ -12,7 +12,13 @@
 
 
 
-    
+
+<div id="dataContainerOrientation">
+  No device orientation data
+</div>
+<div id="dataContainerMotion">
+  No device motion data
+</div>
 
 
 

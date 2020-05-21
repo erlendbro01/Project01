@@ -7,6 +7,25 @@
       style="width: 100%;">
 
 
+
+
+
+
+      <div id="dataContainerOrientation">
+  No device orientation data
+</div>
+<div id="dataContainerMotion">
+  No device motion data
+</div>
+
+
+
+
+
+
+
+
+
     <h1> Erlend Brodal</h1>
     <h2> Technical Artist</h2>
 
