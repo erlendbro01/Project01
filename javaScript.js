@@ -45,8 +45,8 @@ window.addEventListener('deviceorientation', function(event) {
 
   {
     console.log('Gyro Updated: var:' + alpha);
-    $("#demo-box").css('top', ((0+(beta/2))+"px"));
-    $("#demo-box").css('left', ((0+(alpha/2))+"px"));
+    $("#demo-box").css('top', ((100+(gamma/18))+"px"));
+    $("#demo-box").css('left', ((100+(alpha/18))+"px"));
   
   }
   
