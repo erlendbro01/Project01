@@ -5,20 +5,13 @@
 
   <?php include('head.php'); ?>
 
-
 </head>
 
 <body style="background-color: #151A1F;">
 
 
 
-<!-- Get Gyroscope -->
 
-<script>
-
-x = ['unity'];
-
-tryMe ([x]);</script>
     
 
 
@@ -41,5 +34,7 @@ tryMe ([x]);</script>
 
 </div>
 
+
+<script src="javaScript.js"></script>
 </body>
 </html>
