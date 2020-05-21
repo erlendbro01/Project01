@@ -13,8 +13,8 @@ $(window).mousemove(function(e){
   //console.log(ypos);
   
   // Change ouput based on mouse pos
-  $("#demo-box").css('top', ((0+(ypos/100))+"px"));
-  $("#demo-box").css('left', ((0+(xpos/100))+"px"));
+ /* $("#demo-box").css('top', ((0+(ypos/100))+"px"));
+  $("#demo-box").css('left', ((0+(xpos/100))+"px"));*/
 });
 
 
@@ -24,17 +24,24 @@ $(window).mousemove(function(e){
 
 // MOBILE GYRO
 //Check for API browser support
-if (window.DeviceOrientationEvent) { console.log("Device Orientation Events API Supported") } else { console.log("Device Orientation Events API Not Supported") }
+if (window.DeviceOrientationEvent) {
+  console.log("Device Orientation Events API Supported")
+  console.log('HI');
+} else { console.log("Device Orientation Events API Not Supported") }
+
+
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   console.log("Device Is Mobile");
   //Acess orientation data
+
+
   window.addEventListener('deviceorientation', function (event) {
     var alpha = event.alpha;
     var beta = event.beta;
     var gamma = event.gamma;
 
     console.log(event.alpha);
-    console.log(event);
+    console.log('HELLO!!!');
     deviceOrientation(event);
 
   }, false);
@@ -43,7 +50,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 
 function deviceOrientation(event) {
-  
+  $("#demo-box").css('top', ((0+(event.alpha/100))+"px"));
+  $("#demo-box").css('left', ((0+(event.beta/100))+"px"));
   /*alert('gyro ' + event);*/
   window.removeEventListener('deviceorientation', deviceOrientation);
 }
