@@ -10,20 +10,12 @@
 
 
   <!--Flexbox item 01-->
-  <li class="flex-item" id="demo-box">
-    
-
-    <!--mouse gyro1-->
-<div >
- <p>divimage</p>
-
- <p>divimage</p>
-</div>
-
-
+  <li class="flex-item">
+    <a href="3D.php">
+      <img src="3D/mountain/01.png"></img>
+    </a>
     <h2>3D</h2>
   </li>
-
 
 
   <!--Flexbox item 02-->
@@ -39,7 +31,7 @@
     <h2>TECHNICAL TOOLS</h2>
   </li>
 
- 
+
   <!--Flexbox item 01-->
   <li class="flex-item">
     <img src="3D/machine/01.png"></img>

@@ -21,8 +21,6 @@ function spawnImage(name) {
   x.setAttribute("alt", "The Pulpit Rock");
 
   document.body.appendChild(x);
-
-
 }
 
 
@@ -34,15 +32,6 @@ $('#burger-menu').mousedown(function(e){
   $('.sidenav').toggleClass('burger-active');
 
 });
-
-
-
-
-
-
-
-
-
 
 
 
@@ -61,10 +50,13 @@ $(window).mousemove(function(e){
 
  
   //console.log(ypos);
-  
+  /*
   // Change ouput based on mouse pos
   $("#demo-box").css('background-position-y', ((0 + (ypos/100))+"%"));
   $("#demo-box").css('background-position-x', ((0 + (xpos/100))+"%"));
+*/
+ /* $("#demo-box2").css('size', ((2 + (ypos/100))+"%"));
+  $("#demo-box2").css('size', ((2 + (xpos/100))+"%"));*/
 });
 
 
@@ -104,3 +96,15 @@ window.addEventListener('deviceorientation', function(event) {
 
 
 
+
+/*SlldeShow*/
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(600)
+    .next()
+    .fadeIn(600)
+    .end()
+    .appendTo('#slideshow');
+}, 600);
