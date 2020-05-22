@@ -13,6 +13,7 @@
 .flex-item{
   width: 90%
 }
+    }
 
     
   </style>

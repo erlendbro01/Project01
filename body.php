@@ -1,10 +1,5 @@
 <!-- Gyro Background-->
 
-<div id="demo-box">
-
-
-  <img src="http://localhost/Project01/3D/machine/01.png"> </img>
-</div>
 
 
 
@@ -15,8 +10,17 @@
 
 
   <!--Flexbox item 01-->
-  <li class="flex-item">
-    <img src="3D/machine/01.png"></img>
+  <li class="flex-item" id="demo-box">
+    
+
+    <!--mouse gyro1-->
+<div >
+ <p>divimage</p>
+
+ <p>divimage</p>
+</div>
+
+
     <h2>3D</h2>
   </li>
 

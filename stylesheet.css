@@ -155,9 +155,14 @@ body {
   background-color: #181818;
 
   width: calc(40%);
+  
+object-fit: contain;
 
-  height: 100%;
+  
 }
+
+
+
 
 @media (max-width: 800px) {
   .flex-item {
@@ -230,11 +235,14 @@ img {
 }
 
 #demo-box {
-  background-color: rgba(255, 255, 255, 0.712);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 60%;
-  height: 60%;
-  z-index: -10;
+
+  background-image: url('3D/mountain/01.png');
+	background-position:center;
+	background-repeat:no-repeat;
+  background-size:cover;
+  background-position-x: -200px;
+  background-size: 200%;
+  size: 100%;
+  background-position-y: -200px;
+
 }

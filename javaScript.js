@@ -63,8 +63,8 @@ $(window).mousemove(function(e){
   //console.log(ypos);
   
   // Change ouput based on mouse pos
- /* $("#demo-box").css('top', ((0+(ypos/100))+"px"));
-  $("#demo-box").css('left', ((0+(xpos/100))+"px"));*/
+  $("#demo-box").css('background-position-y', ((0 + (ypos/100))+"%"));
+  $("#demo-box").css('background-position-x', ((0 + (xpos/100))+"%"));
 });
 
 
@@ -95,8 +95,8 @@ window.addEventListener('deviceorientation', function(event) {
 
   {
     
-    $("#demo-box").css('top', ((5*(gamma/18))+"px"));
-    $("#demo-box").css('left', ((5*(alpha/18))+"px"));
+   /* $("#demo-box").css('top', ((5*(gamma/18))+"px"));
+    $("#demo-box").css('left', ((5*(alpha/18))+"px"));*/
   
   }
   
