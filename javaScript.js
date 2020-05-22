@@ -1,4 +1,67 @@
 
+
+
+
+
+
+
+
+
+/* Load Icons*/ 
+function loadIcons([x]) {
+  document.write(x);
+
+
+
+
+  for (let index = 0; index < x.length; index++) {
+
+    spawnImage(x[index]);
+
+  }
+}
+
+function spawnImage(name) {
+
+
+
+
+  var x = document.createElement("IMG");
+
+  x.setAttribute("src", ("softwares/" + name + ".png"));
+
+
+  x.setAttribute("alt", "The Pulpit Rock");
+
+  document.body.appendChild(x);
+
+
+}
+
+
+
+
+
+$('#burger-menu').mousedown(function(e){
+
+  $('.sidenav').toggleClass('burger-active');
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Move image by mouse pos
 $(window).mousemove(function(e){
   var change;
@@ -38,81 +101,19 @@ else {
 
 
 window.addEventListener('deviceorientation', function(event) {
-  console.log('Gyro Updated');
+ 
   var alpha = event.alpha;
   var beta = event.beta;
   var gamma = event.gamma;
 
   {
-    console.log('Gyro Updated: var:' + alpha);
+    
     $("#demo-box").css('top', ((5*(gamma/18))+"px"));
     $("#demo-box").css('left', ((5*(alpha/18))+"px"));
   
   }
   
 }, false);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function printTest () {
-
-  alert('printTest');
- 
-}
-
-
-
-
-
-
-
-
-
-
-function tryMe([x]) {
-  document.write(x);
-
-
-
-
-  for (let index = 0; index < x.length; index++) {
-
-    test(x[index]);
-
-  }
-}
-
-function test(name) {
-
-
-
-
-  var x = document.createElement("IMG");
-
-  x.setAttribute("src", ("softwares/" + name + ".png"));
-
-
-  x.setAttribute("alt", "The Pulpit Rock");
-
-  document.body.appendChild(x);
-
-
-}
-
-
 
 
 

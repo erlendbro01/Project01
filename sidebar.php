@@ -7,31 +7,12 @@
       style="width: 100%;">
 
 
-
-
-
-
-      <div id="dataContainerOrientation">
-  No device orientation data
-</div>
-<div id="dataContainerMotion">
-  No device motion data
-</div>
-
-
-
-
-
-
-
-
-
-    <h1> Erlend Brodal</h1>
+    <h1 > Erlend Brodal</h1>
     <h2> Technical Artist</h2>
 
-
+    <a id='burger-menu'>OpenBurger</a>
     <div class="sidenav">
-    <a href="#about">About</a>
+    <a href="about.php">About</a>
     <a href="#services">Services</a>
     <a href="#clients">Clients</a>
     <a href="#contact">Contact</a>

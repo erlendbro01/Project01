@@ -15,25 +15,27 @@
 
 
 
-
+<!-- CSS GRIDS -->
 <div class="grid-container">
 
-<!--SideBar -->
+<!-- SideBar -->
   <div class="gridItem_sidebar"> 
     <?php include('sidebar.php'); ?>
 </div>
 
-
-
-<!--Body -->
+<!-- Body -->
   <div class="gridItem_body"> 
     <?php include('body.php'); ?>
   </div>
 
-
+  <!-- Footer -->
+  <div class="gridItem_footer"> 
+    <?php include('footer.php'); ?>
+  </div>
 </div>
 
 
 <script src="javaScript.js"></script>
+
 </body>
 </html>
