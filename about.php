@@ -71,6 +71,9 @@
                     <h2>Erlend Brodal</h2>
                     <h2>Technical Artist</h2>
 
+                    <h3>Copenhagen</h3>
+                    <script src="https://www.yr.no/sted/Danmark/Hovedstaden/København/ekstern_boks_stripe.js"></script><noscript><a href="https://www.yr.no/sted/Danmark/Hovedstaden/København/">yr.no: Værvarsel for København</a></noscript>
+
                     <p>I have a Bachelor in Games and Entertainment Technology where I'm specialized within 3D
                         development.
                         I am used to the whole 3D pipeline from sketch to build. During my studies i have worked with 8
