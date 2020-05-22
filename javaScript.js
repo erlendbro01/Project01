@@ -7,20 +7,7 @@
 
 
 
-/* Load Icons*/ 
-function loadIcons([x]) {
-  document.write(x);
-
-
-
-
-  for (let index = 0; index < x.length; index++) {
-
-    spawnImage(x[index]);
-
-  }
-}
-
+ 
 function spawnImage(name) {
 
 

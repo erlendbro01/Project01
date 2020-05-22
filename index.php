@@ -15,10 +15,10 @@
 
 
 
-<!-- CSS GRIDS -->
+<!-- css grid layout -->
 <div class="grid-container">
 
-<!-- SideBar -->
+<!-- Side Bar -->
   <div class="gridItem_sidebar"> 
     <?php include('sidebar.php'); ?>
 </div>

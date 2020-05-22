@@ -15,7 +15,9 @@ body {
 
 .grid-container > div {
   text-align: center;
-
+ 
+  padding: 0px;
+ 
   font-size: 20px;
   color: white;
 }
@@ -144,13 +146,13 @@ body {
   padding: 0px;
   margin: 0px;
 
-  padding: 30px;
 }
 
 .flex-item {
-  padding: 10px;
+  padding: 2px;
+  margin: 10px;
 
-  background-color: #666666;
+  background-color: #181818;
 
   width: calc(40%);
 
@@ -174,6 +176,9 @@ body {
 .base {
   color: brown;
 }
+
+
+/*
 .imageContainer {
   width: 100%;
   height: 100%;
@@ -185,7 +190,8 @@ body {
   display: block;
   float: left;
 }
-
+*/
+/*
 .textContainer {
   font-size: 70%;
   text-align: left;
@@ -194,7 +200,7 @@ body {
 
   padding: 10px;
 }
-
+*/
 .textBar {
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

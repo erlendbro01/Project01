@@ -13,7 +13,7 @@
     <a id='burger-menu'>OpenBurger</a>
     <div class="sidenav">
     <a href="about.php">About</a>
-    <a href="#services">Services</a>
+    <a href="3D.php">3D</a>
     <a href="#clients">Clients</a>
     <a href="#contact">Contact</a>
   </div>
