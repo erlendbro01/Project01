@@ -5,7 +5,14 @@
 
 
 
+function addIcons([x]) {
 
+for (let i= 0; i < x.length; i++) {
+
+  spawnImage(x[i]);
+  console.log('Yo');
+  }
+}
 
  
 function spawnImage(name) {
@@ -20,13 +27,17 @@ function spawnImage(name) {
 
   x.setAttribute("alt", "The Pulpit Rock");
 
-  document.body.appendChild(x);
+ 
+
+  
+  document.getElementById("placehere").appendChild(x);
+
 }
 
 
 
 
-
+/*Burger Menu*/
 $('#burger-menu').mousedown(function(e){
 
   $('.sidenav').toggleClass('burger-active');
@@ -79,6 +90,7 @@ else {
 
 
 
+/*Gyro*/ 
 window.addEventListener('deviceorientation', function(event) {
  
   var alpha = event.alpha;
@@ -97,14 +109,3 @@ window.addEventListener('deviceorientation', function(event) {
 
 
 
-/*SlldeShow*/
-$("#slideshow > div:gt(0)").hide();
-
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(600)
-    .next()
-    .fadeIn(600)
-    .end()
-    .appendTo('#slideshow');
-}, 600);

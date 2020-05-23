@@ -12,6 +12,8 @@
 
     <a id='burger-menu'>OpenBurger</a>
     <div class="sidenav">
+   
+    <a href="index.php" class="active">Home</a>
     <a href="about.php">About</a>
     <a href="3D.php">3D</a>
     <a href="#clients">Clients</a>
