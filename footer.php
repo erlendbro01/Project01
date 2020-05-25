@@ -1,4 +1,1 @@
-
-<p>FOOTER</p>
-
-<p>erlendbro@hotmail.com</p>
+<p id="footer">©Erlend Brodal, 2020</p>

@@ -5,6 +5,13 @@
 
     <?php include('head.php'); ?>
     <style>
+
+#button-about {
+    background-color: #fff;
+  color: #121212;
+  font-variation-settings: "wght" 135;
+    }
+
     .flex-item {
         width: 50%
     }

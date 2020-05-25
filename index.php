@@ -5,6 +5,16 @@
 
   <?php include('head.php'); ?>
 
+  <style>
+
+#button-home {
+  background-color: #fff;
+  color: #121212;
+  font-variation-settings: "wght" 135;
+    }
+
+  </style>
+
 </head>
 
 <body style="background-color: #121212;">

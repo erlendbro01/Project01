@@ -6,12 +6,11 @@
   <?php include('head.php'); ?>
   <style>
 
-#button-3D {
+#button-games {
   background-color: #fff;
   color: #121212;
   font-variation-settings: "wght" 135;
     }
-
 
     .flex-item {
       width: 40%
@@ -30,7 +29,7 @@
 
 <body style="background-color: #121212">
 
-  <script src="javaScript.js"></script> <!--is needed?-->
+  <script src="javaScript.js"></script>
 
   <!-- STATIC PANELS -->
   <div class="grid-container">
@@ -60,22 +59,22 @@
 
         <!----Flex Items ---->
         <li class="flex-item">
-          <h2 style="text-align:center">Slideshow Gallery</h2>
+         
 
           <div class="container">
             <div class="mySlides">
               <div class="numbertext">1 / 3</div>
-              <img src="3D/mountain/01.png" style="width:100%">
+              <img src="3D/exiles/01.png" style="width:100%">
             </div>
 
             <div class="mySlides">
               <div class="numbertext">2 / 3</div>
-              <img src="3D/mountain/02.png" style="width:100%">
+              <img src="3D/exiles/02.png" style="width:100%">
             </div>
 
             <div class="mySlides">
               <div class="numbertext">3 / 3</div>
-              <img src="3D/mountain/03.png" style="width:100%">
+              <img src="3D/exiles/03.png" style="width:100%">
             </div>
 
 
@@ -92,16 +91,18 @@
 
         <!--text01-->
         <li class="flex-item" id="placehere">
-          <h1>Foot of the mountain</h1>
-          <hr>
+       
+          <h1>Exiles of Eternity</h1>
+         
 
-          <p>Real-time render using assets from Exiles of Eternity (https://erlendbrodal.com/pages/games) during month 3 of development.
+          <p>Short description: The game is a Battle Royale mixed with moba elements. Up to 18 players starts on a 1x1 square kilometer map, where they fight until last man standing. The combat is spellbased, with different character using unique skills. Each player have the ability to level up their character and spells by killing monsters spread across the world, or fighting other players.
 
-            The 3D models are made with Maya, Zbrush and Speedtree. The texturing was done procedurally with Substance Designer and Unreal shader graph.</p>
+My main contribution to the game has been creating the character animation controller, environment (Props and terrain), shaders, particle effects, sound and UI.</p>
           <script>
-            var icons = ["unity", "unreal"];
+            var icons = ["maya", "unreal","painter","designer","alchemist","speedtree"];
           addIcons([icons]);
         </script>
+         <hr>
         </li>
 
 
@@ -110,7 +111,7 @@
         <!----Flex Items ---->
         <!--imag01-->
         <li class="flex-item">
-          <h1>Gallery</h1>
+          
           <div class="imageContainer">
             <a href="3D/mountain.html">
               <img src="3D/machine/01.png"></img>
@@ -123,10 +124,11 @@
 
         <!--text01-->
         <li class="flex-item">
+       
           <h1>Vintage Vending Machine</h1>
-          <hr>
+          
           <p>Created one weekend to practise high Poly to low Poly workflow. My goal was to create a mesh below 1K vertices. The current mesh is at 825. Maya for modeling, Painter for texturing & baking. Rendered in Marmoset.</p>
-         
+          <hr>
         </li>
 
 
@@ -175,7 +177,7 @@
     </div>
     <!-- ------------------------------3D page content ---------------------------------->
   </div>
-  <script src="javaScript.js"></script>
+
 </body>
 
 </html>

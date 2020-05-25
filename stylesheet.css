@@ -1,12 +1,13 @@
 @font-face {
-  font-family: "Untitled Sans";
-  src: url(untitled-sans-regular.woff2)
+  font-family: "Favorite";
+  src: url(Favorit-Variable.woff2)
   format('woff2');
   font-weight: regular;
 }
+
 *{
-  font-family: "Untitled Sans", serif;
-  font-weight: 250;
+  font-family: "Favorite", sans-serif;
+  font-variation-settings: 'wght' 70;
  
 }
 
@@ -39,6 +40,7 @@ body {
 .gridItem_sidebar {
   grid-column: 1 / 2;
   grid-row: 0 / 1;
+
 }
 /*body*/
 .gridItem_body {
@@ -50,9 +52,12 @@ body {
 .gridItem_footer {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  background-color: rgb(85, 85, 85);
   height: 100%;
-  
+}
+
+#footer{
+  padding-bottom: 16px;
+  font-variation-settings: "wght" 70;
 }
 
 /*-Mobile*/
@@ -89,17 +94,22 @@ body {
 /*Sidebar Properties*/
 .sidebar {
   height: 100%;
-
-
-
-  background-color: rgb(202, 53, 53);
 }
 
 .sidebar h1 {
-  color: brown;
+  color: #fff;
+  font-size: 3.8em;
+  font-variation-settings: "wght" 130;
 }
 .sidebar h2 {
-  color: rgb(136, 136, 136);
+  font-size: 2.2em;
+  font-variation-settings: 'wght' 70;
+  color: #ccc;
+}
+
+.sidebar h1, .sidebar h2, .sidenav a, #footer{
+  margin: 0 0 0 16px !important;
+  padding-left: 16px !important;
 }
 
 
@@ -107,23 +117,21 @@ body {
 
 /*BUTTONS*/
 .sidenav {
-  height: 100%;
   width: 100%;
 
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(48, 48, 48);
   overflow-x: hidden;
-  padding-top: 20px;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #fc0d0d;
   display: block;
+
+  transition: font-variation-settings 0.25s ease-in-out;
 }
 
 .sidebar a {
@@ -133,6 +141,8 @@ body {
   text-decoration: none;
 }
  
+
+/*Current active website, set under the php*/
 .sidebar a.active {
   background-color: rgba(0, 0, 0, 0.13);
   color: rgb(255, 255, 255);
@@ -142,6 +152,19 @@ body {
 
 
 
+/*Burger*/
+#burger-menu {
+
+  display: none;
+  visibility: hidden;
+}
+
+.sidenav a:hover{
+  color: #fff;
+  font-variation-settings: 'wght' 135;
+  transition: font-variation-settings 0.25s ease-in-out;
+}
+
 @media only screen and (max-width: 1000px) {
 
   .sidenav{
@@ -150,7 +173,12 @@ body {
   }
 
 
-
+  #burger-menu {
+    float: right;
+    display: block;
+    visibility: visible;
+    padding: 10px;
+  }
   .burger-active{
     visibility: visible;
     display: block;
@@ -180,11 +208,12 @@ body {
 
 .flex-item {
   padding: 10px;
-  margin: 0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 
-  background-color: #181818;
+  background-color: #121212;
 
-  width: 40%;
+  width: 48%;
   
 object-fit: contain;
 
@@ -208,6 +237,11 @@ color: rgb(129, 129, 129);
 
     height: 100%;
     flex: auto;
+  }
+
+  .flex-item h2{
+    padding-left: 16px;
+    margin-left: 16px;
   }
 }
 
@@ -361,8 +395,8 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
-  font-weight: bold;
+  color: #fff;
+  font-variation-settings: 'wght' 135;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -437,15 +471,17 @@ img {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(0, 0, 0);
+  background-color: #000;
 }
 
 .container:hover .overlay {
-  opacity: 0.6;
+  opacity: 0.75;
 }
 .text {
-  color: white;
-  font-size: 20px;
+  color: #fff;
+  font-size: 2em;
+  font-variation-settings: "wght" 130;
+
   position: absolute;
   top: 50%;
   left: 50%;
