@@ -8,8 +8,8 @@
   <style>
 
 #button-home {
-  background-color: #fff;
-  color: #121212;
+  background-color: rgb(98, 0, 255);
+  color: #fff;
   font-variation-settings: "wght" 135;
     }
 
