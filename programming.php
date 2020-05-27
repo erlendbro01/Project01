@@ -48,28 +48,20 @@
             <!-- flexbox container -->
             <ul class="flex-container">
                 <!----Flex Items ---->
+              
+             
+                <script src="https://www.yr.no/sted/Danmark/Hovedstaden/København/ekstern_boks_time_for_time.js"></script><noscript><a href="https://www.yr.no/sted/Danmark/Hovedstaden/København/">yr.no: Værvarsel for København</a></noscript>
 
-                <!--imag01-->
-                <li class="flex-item">
-                    <div class="imageContainer">
-                        <img src="img/Profile.png" width="30%"></img>
-                    </div>
-                </li>
+              
+            </ul>
+         
 
-                <!--text01-->
-                <li class="flex-item" id="01">
+            <ul class="flex-container">
+                <!----Flex Items ---->
+              
+             <p>Working on something big this year. Meanwhile, enjoy the weather!</p>
 
-                    <h2>Contact</h2>
-                    <p>Feel free to contact me at: Erlendbro@hotmail.com </p>
-                  
-
-
-                </li>
-
-
-
-
-
+              
             </ul>
         </div>
         <!-- ------------------------------3D page content ---------------------------------->

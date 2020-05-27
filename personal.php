@@ -65,13 +65,11 @@
           <p>Real-time render using Unreal Engine This is a personal project I worked on, to improve my skills in terrain creation</p>
           <script>
             var id = '01';
-          var icons = ["maya","designer","painter","unreal","speedtree","alchemist", "zbrush"];
-          addIcons([icons], id);
+            var icons = ["maya", "designer", "painter", "unreal", "speedtree", "alchemist", "zbrush"];
+            addIcons([icons], id);
           </script>
-           <hr>
+          <hr>
         </li>
-
-
 
       </ul>
     </div>
