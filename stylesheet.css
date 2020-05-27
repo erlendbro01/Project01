@@ -27,6 +27,10 @@ html, body {
     font-size: 1vw;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* CSS GRIDS */
 
 .grid-container {
@@ -352,6 +356,11 @@ p {
         display: block;
         font-size: 4vh !important;
         margin: 0 0 1vh 0 !important;
+    }
+    
+    .overlay .text{
+        display: none;
+        visibility: hidden;
     }
 
     .gridItem_footer {
