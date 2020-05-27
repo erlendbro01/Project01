@@ -40,7 +40,7 @@
         <a href="3D.php">
 
             <div class="container">
-                <img src="img/VendingMachine01" alt="Art" class="image">
+                <img src="img/VendingMachine01.png" alt="Art" class="image">
                 <div class="overlay">
                     <div class="text">3D MODELING</div>
                 </div>
