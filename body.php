@@ -1,5 +1,5 @@
 
-
+<!--BODY of Index only! (for easier reading)-->
 <!--flexbox container-->
 
 <ul class="flex-container">

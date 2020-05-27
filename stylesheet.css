@@ -20,6 +20,7 @@
     padding-inline-start: 0;
 
     overflow-x: hidden;
+    user-select: none;
 }
 
 html, body {
@@ -208,29 +209,7 @@ img {
     background: #f7f7f7;
 }
 
-#demo-box {
-    background-image: url('3D/mountain/01.png');
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position-x: -200px;
-    background-size: 200%;
-    height: 100%;
-    size: 100%;
-    background-position-y: -200px;
-}
 
-#demo-box2 {
-    background-image: url('3D/mountain/01.png');
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position-x: -200px;
-    background-size: 200%;
-    height: 100%;
-    size: 100%;
-    background-position-y: -200px;
-}
 
 
 /* Hover Iamge */
@@ -251,33 +230,10 @@ img {
 
 
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
 
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-/* Six columns side by side */
-.column {
-    float: left;
-    width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-    opacity: 0.6;
-}
-
-.active, .demo:hover {
-    opacity: 1;
-}
 
 .overlay {
     position: absolute;

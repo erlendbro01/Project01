@@ -52,7 +52,7 @@
                 <!--imag01-->
                 <li class="flex-item">
                     <div class="imageContainer">
-                        <img src="img/Profile.png" width="30%"></img>
+                        <img src="img/Profile.png" width="30%">
                     </div>
                 </li>
 
