@@ -5,11 +5,7 @@
 
     <?php include('head.php'); ?>
     <style>
-        #button-contact {
-            background-color: rgb(100, 0, 255);
-            color: #fff;
-            font-variation-settings: "wght"135;
-        }
+     
 
         .flex-item {
             width: 60%
@@ -66,7 +62,7 @@
         </div>
         <!-- ------------------------------3D page content ---------------------------------->
     </div>
-
+    <script src="javaScript.js"></script>
 </body>
 
 </html>

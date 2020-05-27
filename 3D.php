@@ -93,7 +93,7 @@
     </div>
     <!-- ------------------------------3D page content ---------------------------------->
   </div>
-
+  <script src="javaScript.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,0 @@
-3D - texturing
-animation - rigging
-Shaders
-Terrain
-procedural
