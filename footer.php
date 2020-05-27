@@ -1,1 +1,1 @@
-<p id="footer">©Erlend Brodal, 2020</p>
+<p id="footer">© Erlend Brodal, 2020</p>

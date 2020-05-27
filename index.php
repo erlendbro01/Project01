@@ -3,17 +3,17 @@
 
 <head style="background-color: #121212;">
 
-  <?php include('head.php'); ?>
+    <?php include('head.php'); ?>
 
-  <style>
+    <style>
 
-#button-home {
-  background-color: #fff;
-  color: #121212;
-  font-variation-settings: "wght" 135;
-    }
+        #button-home {
+            background-color: rgb(100, 0, 255);
+            color: #fff;
+            font-variation-settings: "wght" 135;
+        }
 
-  </style>
+    </style>
 
 </head>
 

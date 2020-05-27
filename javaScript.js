@@ -40,7 +40,8 @@ function spawnImage(name) {
 /*Burger Menu*/
 $('#burger-menu').mousedown(function(e){
 
-  $('.sidenav').toggleClass('burger-active');
+    $('.sidenav').toggleClass('burger-active');
+    $('.sidebar').toggleClass('burger-active');
 
 });
 
@@ -84,7 +85,7 @@ if(window.DeviceOrientationEvent) {
 }
 else {
 
-  alert('Device Orientation NOT Supported');
+//  alert('Device Orientation NOT Supported');
 }
 
 
