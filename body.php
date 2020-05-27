@@ -1,7 +1,3 @@
-<!-- Gyro Background-->
-
-
-
 
 
 <!--flexbox container-->
@@ -12,11 +8,10 @@
     <!--Flexbox item 01-->
     <li class="flex-item">
         <h2 class="mobile-lables">Games</h2>
-        
-        <a href="3D.php">
 
+        <a href="games.php">
             <div class="container">
-                <img src="3D/machine/02.png" alt="Art" class="image">
+                <img src="img/Exiles01.png" alt="Art" class="image">
                 <div class="overlay">
                     <div class="text">GAMES</div>
                 </div>
@@ -24,13 +19,13 @@
         </a>
     </li>
 
-  <!--Flexbox item 01-->
-  <li class="flex-item">
+    <!--Flexbox item 02-->
+    <li class="flex-item">
         <h2 class="mobile-lables">Personal Projects</h2>
-      
-        <a href="about.php">
+
+        <a href="personal.php">
             <div class="container">
-                <img src="3D/machine/02.png" alt="Art" class="image">
+                <img src="img/mountain01.png" alt="Art" class="image">
                 <div class="overlay">
                     <div class="text">PERSONAL PROJECTS</div>
                 </div>
@@ -38,14 +33,14 @@
         </a>
     </li>
 
-  <!--Flexbox item 01-->
-  <li class="flex-item">
-      <h2 class="mobile-lables">3D Modeling</h2>
-      
+    <!--Flexbox item 03-->
+    <li class="flex-item">
+        <h2 class="mobile-lables">3D Modeling</h2>
+
         <a href="3D.php">
 
             <div class="container">
-                <img src="3D/machine/02.png" alt="Art" class="image">
+                <img src="img/VendingMachine01" alt="Art" class="image">
                 <div class="overlay">
                     <div class="text">3D MODELING</div>
                 </div>
@@ -54,16 +49,16 @@
     </li>
 
 
-  <!--Flexbox item 01-->
-  <li class="flex-item">
-      <h2 class="mobile-lables">Programming</h2>
-      
+    <!--Flexbox item 04-->
+    <li class="flex-item">
+        <h2 class="mobile-lables">Programming</h2>
+
         <a href="programming.php">
 
             <div class="container">
-                <img src="3D/machine/02.png" alt="Art" class="image">
+                <img src="img/Programming.png" alt="Art" class="image">
                 <div class="overlay">
-                    <div class="text">POGRAMMING</div>
+                    <div class="text">PROGRAMMING</div>
                 </div>
             </div>
         </a>

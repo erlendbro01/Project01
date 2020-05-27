@@ -5,7 +5,11 @@
 
   <?php include('head.php'); ?>
   <style>
-   
+    #button-home {
+      background-color: rgb(100, 0, 255);
+      color: #fff;
+      font-variation-settings: "wght"135;
+    }
 
     .flex-item {
       width: 40%
@@ -41,52 +45,32 @@
 
     <!----PERSNOAL PAGE--->
     <div class="gridItem_body">
+
       <!-- flexbox container -->
       <ul class="flex-container">
-        <!----Flex Items ---->
 
+        <!----Flex Items ---->
         <!--imag01-->
-        <li class="flex-item" >
+        <li class="flex-item">
           <div class="imageContainer">
-            <img src="img/VendingMachine01.png">
+
+            <img src="img/Mountain01.png">
+
           </div>
         </li>
 
         <!--text01-->
-        <li class="flex-item" id= "01">
-          <h1>Vintage Vending Machine</h1>
-          <p>Created one weekend to practise high Poly to low Poly workflow. My goal was to create a mesh below 1K vertices.
-             The current mesh is at 825. Maya for modeling, Painter for texturing & baking. Rendered in Maromset.</p>
-         
+        <li class="flex-item" id="01">
+          <h1>Foot of The Mountain</h1>
+          <p>Real-time render using Unreal Engine This is a personal project I worked on, to improve my skills in terrain creation</p>
           <script>
-         var id = '01';
-          var icons = ["maya","painter"];
+            var id = '01';
+          var icons = ["maya","designer","painter","unreal","speedtree","alchemist", "zbrush"];
           addIcons([icons], id);
           </script>
            <hr>
         </li>
 
-
-
-          <!--imag02-->
-          <li class="flex-item" >
-          <div class="imageContainer">
-            <img src="img/Ground01.png">
-          </div>
-        </li>
-
-        <!--text02-->
-        <li class="flex-item" id= "02">
-          <h1>PBR Texturing</h1>
-          <p>Made for a game project.</p>
-         
-          <script>
-          var id = '02';
-          var icons = ["designer"];
-          addIcons([icons], id);
-          </script>
-           <hr>
-        </li>
 
 
       </ul>

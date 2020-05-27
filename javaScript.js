@@ -5,17 +5,17 @@
 
 
 
-function addIcons([x]) {
+function addIcons([x], id) {
 
 for (let i= 0; i < x.length; i++) {
 
-  spawnImage(x[i]);
+  spawnImage(x[i],id);
   console.log('Yo');
   }
 }
 
  
-function spawnImage(name) {
+function spawnImage(name,id) {
 
 
 
@@ -25,12 +25,12 @@ function spawnImage(name) {
   x.setAttribute("src", ("softwares/" + name + ".png"));
 
 
-  x.setAttribute("alt", "The Pulpit Rock");
+  x.setAttribute("alt", name);
 
  
 
   
-  document.getElementById("placehere").appendChild(x);
+  document.getElementById(id).appendChild(x);
 
 }
 
