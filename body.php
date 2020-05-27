@@ -9,7 +9,7 @@
     <li class="flex-item">
         <h2 class="mobile-lables">Games</h2>
 
-       
+        <a href="games.php">
             <div class="container">
                 <img src="img/Exiles01.png" alt="Art" class="image">
                 <div class="overlay">
