@@ -7,7 +7,6 @@
 
     <!--Flexbox item 01-->
     <li class="flex-item">
-         <a href="games.php">
         <h2 class="mobile-lables">Games</h2>
 
        
