@@ -1181,6 +1181,9 @@ a {
 .cid-sa5JKNMCSO .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
 }
+.cid-sa5JKNMCSO .price {
+  color: #bed3f9;
+}
 .cid-sa5FlOBghe {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2309,7 +2312,7 @@ a {
 .cid-sa6nDc6yLJ {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .cid-sa6nDc6yLJ .mbr-iconfont {
   display: block;
