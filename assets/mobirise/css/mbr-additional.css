@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap);
 
 
@@ -8,12 +9,12 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Jost', sans-serif;
-  font-size: 4.6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.3rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.75rem;
+  font-size: 5.375rem;
 }
 .display-2 {
   font-family: 'Jost', sans-serif;
@@ -54,14 +55,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.68rem;
+    font-size: 3.44rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.22rem;
-    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.01rem;
+    font-size: calc( 2.155rem + (4.3 - 2.155) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.155rem + (4.3 - 2.155) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -555,6 +556,17 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
 .alert-danger {
   background-color: #ff9966;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-section-btn a.btn:not(.btn-form):hover,
+.mbr-section-btn a.btn:not(.btn-form):focus {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #6592e6;
   border-color: #6592e6;
@@ -562,6 +574,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -618,6 +633,19 @@ blockquote {
   border-color: #6592e6;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #6592e6;
@@ -1095,12 +1123,6 @@ a {
   padding-bottom: 0rem;
   background-color: #3b4049;
 }
-.cid-sa5FlOBghe img,
-.cid-sa5FlOBghe .item-img {
-  height: 100%;
-  height: 300px;
-  object-fit: cover;
-}
 .cid-sa5FlOBghe .item:focus,
 .cid-sa5FlOBghe span:focus {
   outline: none;
@@ -1162,6 +1184,7 @@ a {
 }
 .cid-sa6dt6B1rP .media-container-row .mbr-text {
   text-align: right;
+  color: #a8a8a8;
 }
 .cid-sa5EZi2NDA {
   z-index: 1000;
@@ -1864,6 +1887,7 @@ a {
 }
 .cid-sa6dt6B1rP .media-container-row .mbr-text {
   text-align: right;
+  color: #a8a8a8;
 }
 .cid-sa5EZi2NDA {
   z-index: 1000;
@@ -2329,6 +2353,7 @@ a {
 }
 .cid-sa6dt6B1rP .media-container-row .mbr-text {
   text-align: right;
+  color: #a8a8a8;
 }
 .cid-sa5EZi2NDA {
   z-index: 1000;
@@ -2689,6 +2714,7 @@ a {
 }
 .cid-sa6dt6B1rP .media-container-row .mbr-text {
   text-align: right;
+  color: #a8a8a8;
 }
 .cid-sa6CHYfp2y {
   padding-top: 6rem;
@@ -3647,6 +3673,7 @@ a {
 }
 .cid-sabWsM5I8K .media-container-row .mbr-text {
   text-align: right;
+  color: #a8a8a8;
 }
 .cid-sakIjVTaYv {
   padding-top: 3rem;
@@ -3708,7 +3735,7 @@ a {
 .cid-sakUsYX5Q2 {
   padding-top: 2rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .cid-sakUsYX5Q2 .item {
   padding-bottom: 2rem;
@@ -4336,4 +4363,5 @@ a {
 }
 .cid-sa6dt6B1rP .media-container-row .mbr-text {
   text-align: right;
+  color: #a8a8a8;
 }
