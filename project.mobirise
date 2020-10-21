@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Erlend Brodal Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -63,7 +63,9 @@
     "gdpr": false,
     "uniqCompNum": 131,
     "versionPublish": "5.1.4",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -2294,7 +2296,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content11",
-          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"assets/files/Erlend_Brodal_CV.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-download mbr-iconfont mbr-iconfont-btn\"></span>Download resume</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"assets/files/Erlend_Brodal_CV-2.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-download mbr-iconfont mbr-iconfont-btn\"></span>Download resume</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sa6dav3YIh",
           "_anchor": "content11-x",
           "_protectedParams": [],
