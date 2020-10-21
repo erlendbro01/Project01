@@ -63,9 +63,7 @@
     "gdpr": false,
     "uniqCompNum": 131,
     "versionPublish": "5.1.4",
-    "screenshot": "screenshot.png",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
