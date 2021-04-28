@@ -1118,6 +1118,12 @@ a {
   padding-bottom: 0rem;
   background-color: #252525;
 }
+.cid-sa5FlOBghe img,
+.cid-sa5FlOBghe .item-img {
+  height: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 .cid-sa5FlOBghe .item:focus,
 .cid-sa5FlOBghe span:focus {
   outline: none;
@@ -1166,6 +1172,95 @@ a {
 .cid-sa5FlOBghe .mbr-section-subtitle {
   color: #bbbbbb;
   text-align: center;
+}
+.cid-svPtbqhzmR {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-svPtbqhzmR .timeline-element {
+  position: relative;
+}
+.cid-svPtbqhzmR .timelines-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cid-svPtbqhzmR .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-svPtbqhzmR .mbr-section-title,
+.cid-svPtbqhzmR .mbr-section-subtitle,
+.cid-svPtbqhzmR .timeline-date {
+  text-align: center;
+}
+.cid-svPtbqhzmR .iconBackground {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #6592e6;
+  margin-left: -9px;
+}
+@media (max-width: 767px) {
+  .cid-svPtbqhzmR .iconBackground {
+    left: 15px;
+    top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-svPtbqhzmR .iconBackground {
+    top: 70px;
+    left: 50%;
+  }
+}
+.cid-svPtbqhzmR .row:after {
+  content: "";
+  position: absolute;
+  background-color: #6592e6;
+  width: 2px;
+}
+@media (max-width: 767px) {
+  .cid-svPtbqhzmR .row:after {
+    height: calc(100% + 30px);
+    top: 50px;
+    left: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-svPtbqhzmR .row:after {
+    height: calc(100% + 28px);
+    top: 90px;
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-svPtbqhzmR .timeline-date-wrapper,
+  .cid-svPtbqhzmR .timeline-text-wrapper,
+  .cid-svPtbqhzmR .image-wrapper {
+    padding: 0rem;
+    padding-left: 2rem;
+  }
+  .cid-svPtbqhzmR .mbr-timeline-date {
+    text-align: left !important;
+  }
+  .cid-svPtbqhzmR .mbr-timeline-title {
+    text-align: left;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-svPtbqhzmR .timeline-date-wrapper,
+  .cid-svPtbqhzmR .timeline-text-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-svPtbqhzmR .timeline-date-wrapper,
+  .cid-svPtbqhzmR .timeline-text-wrapper,
+  .cid-svPtbqhzmR .image-wrapper {
+    padding: 2rem;
+  }
 }
 .cid-sa6dt6B1rP {
   padding-top: 30px;
