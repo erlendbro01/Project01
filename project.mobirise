@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Erlend Brodal Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "prepare.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -63,9 +63,7 @@
     "gdpr": false,
     "uniqCompNum": 174,
     "versionPublish": "5.3.0",
-    "screenshot": "screenshot.png",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
